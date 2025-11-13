@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 100vh;
+    max-width: 100%;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color: black;
+    
+}
+.main-container {
+    width: 500px;
+    border-radius: 5px;
+    text-align: center;
+    background-color:hsl(0, 0%, 100%);
+    margin-top: 0px;
+}
+.card {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.first-container {
+ color: hsl(0, 0%, 100%);
+ background-color:hsla(241, 81%, 54%, 0.8);
+ border-bottom-left-radius: 20px;
+ border-bottom-right-radius: 20px;
+}
+.span-text {
+    margin-bottom: 30px;
+}
+.span-number{
+    background-color:hsla(256, 72%, 46%, 0.7);
+    width: 105px;
+    height: 105px;
+    border: 1px solid none;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+#no-1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+#no-2 {
+    font-weight: 400;
+    font-size: 15px;
+}
+.span2-text {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.main-article {
+    font-weight: 400;
+    line-height: 18px;
+ margin-bottom: 30px;   
+}
+.summary-container {
+    width: 90%;
+    background-color:rgba(255, 87, 87, 0.164);
+    padding: 10px;
+    border-radius: 7px;
+    margin:15px auto;
+
+}
+.summary-item {
+    justify-content: space-between;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+#sp-1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color:hsl(0, 100%, 67%);
+}
+.bbb {
+    background-color:hsla(39, 100%, 56%,0.5);
+    
+}
+#sp-2 {
+    color :hsl(39, 100%, 56%);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.ccc {
+    background-color: hsla(166, 100%, 37%, 0.2);
+   
+    
+}
+#sp-3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: hsl(166, 100%, 37%);
+}
+.ddd {
+    background-color :hsla(234, 85%, 45%, 0.2);
+}
+#sp-4 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+button {
+    padding: 10px;
+    border: 1px solid transparent;
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 999px;
+    width: 80%;
+    color: hsl(0, 100%, 100%);
+    font-weight: 600;
+    font-size: 21px;
+    margin: 10px 0;
+    
+}
+.summary {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: left;
+    padding: 20px ;
+}
+button:hover {
+    cursor: pointer;
+}

@@ -13,14 +13,14 @@ body {
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
-    background-color: black;
+    background-color: hsl(241, 100%, 89%);
     
 }
 .main-container {
     width: 500px;
     border-radius: 5px;
     text-align: center;
-    background-color:hsl(0, 0%, 100%);
+    background-color:hsl(0, 100%, 100%);
     margin-top: 0px;
 }
 .card {
@@ -33,6 +33,7 @@ body {
  background-color:hsla(241, 81%, 54%, 0.8);
  border-bottom-left-radius: 20px;
  border-bottom-right-radius: 20px;
+
 }
 .span-text {
     margin-bottom: 30px;
@@ -135,4 +136,26 @@ button {
 }
 button:hover {
     cursor: pointer;
+}
+@media (min-width:768px) {
+    .main-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 800px;
+        margin-top: 50px;
+        background-color: white;
+    }
+    body {
+        background-color: hsl(241, 100%, 89%);
+    }
+    .first-container {
+        border: 1px solid none;
+        border-radius: 10px;
+      
+    }
+    .summary-container {
+        border: 1px solid none;
+        border-radius: 10px;
+        
+    }
 }

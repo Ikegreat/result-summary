@@ -4,39 +4,35 @@
     box-sizing: border-box;
 }
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-height: 100vh;
-    max-width: 100%;
     font-family: "League Spartan", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
     background-color: hsl(241, 100%, 89%);
-    
 }
 .main-container {
-    width: 500px;
+    width: 100%;
     border-radius: 5px;
     text-align: center;
     background-color:hsl(0, 100%, 100%);
-    margin-top: 0px;
 }
 .card {
     width: 100%;
     box-sizing: border-box;
     padding: 10px;
+    
 }
 .first-container {
  color: hsl(0, 0%, 100%);
  background-color:hsla(241, 81%, 54%, 0.8);
  border-bottom-left-radius: 20px;
  border-bottom-right-radius: 20px;
+ 
 
 }
 .span-text {
     margin-bottom: 30px;
+    
 }
 .span-number{
     background-color:hsla(256, 72%, 46%, 0.7);
@@ -121,7 +117,7 @@ button {
     border: 1px solid transparent;
     background-color: hsl(224, 30%, 27%);
     border-radius: 999px;
-    width: 80%;
+    width: 90%;
     color: hsl(0, 100%, 100%);
     font-weight: 600;
     font-size: 21px;
@@ -142,6 +138,7 @@ button:hover {
         display: grid;
         grid-template-columns: auto auto;
         width: 800px;
+        margin: auto;
         margin-top: 50px;
         background-color: white;
     }
@@ -151,11 +148,14 @@ button:hover {
     .first-container {
         border: 1px solid none;
         border-radius: 10px;
+        padding: 20px;
+    
       
     }
     .summary-container {
         border: 1px solid none;
         border-radius: 10px;
+        
         
     }
 }
